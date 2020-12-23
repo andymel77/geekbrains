@@ -126,7 +126,7 @@ result = a
 
 while True:
     if result >= b:
-        print("на " + str(day+1) + "-й день спортсмен достиг результата — не менее 3 км.")
+        print("на %d-й день спортсмен достиг результата — не менее 3 км." %(day+1))
         break
     result = result * 1.1
     day = day + 1
