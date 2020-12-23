@@ -55,7 +55,6 @@ else:
 try:
     num = int(input("Input int: "))
     summa = num + int(str(num) + str(num)) + int(str(num) + str(num) + str(num))
-
 except ValueError:
     print("Not an integer!")
 else:
@@ -78,7 +77,6 @@ try:
         if int(arrNum[i]) > maxNum:
             maxNum = int(arrNum[i])
         i = i + 1
-
 except ValueError:
     print("Not an integer!")
 else:
