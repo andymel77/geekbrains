@@ -13,14 +13,12 @@ while True:
             number = float(el)
             summa += number
         except ValueError as ex:
-            print(ex)
-            print('It\'s not a number')
             if el == '#': 
                 exit_symbol = True
                 break
-
+    
+    print('Summa:', summa)
+    
     if exit_symbol:
         break
-
-print('Summa:', summa)
         
